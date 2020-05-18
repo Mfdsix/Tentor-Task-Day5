@@ -1,8 +1,9 @@
 :root{
 	--color-white: #fff;
 	--color-black: #333;
-	--color-primary: #2ebf91;
-	--color-secondary: #8360c3;
+	--color-primary: #00b09b;
+	--color-secondary: #96c93d;
+	--color-accent: #f5af19;
 }
 
 *{
@@ -57,11 +58,11 @@ p{
 	margin: 0 5px;
 }
 .social-links a:hover{
-	background: var(--color-primary);
+	background: var(--color-accent);
 	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 	color: var(--color-black);
 	position: relative;
-	border: 2px solid var(--color-primary);
+	border: 2px solid var(--color-accent);
 	animation: bounce 0.8s infinite;
 }
 
