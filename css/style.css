@@ -68,9 +68,6 @@ p{
 
 @keyframes background_anim{
 	0%{
-		background-color: var(--color-white);
-	}
-	25%{
 		background-color: var(--color-primary);
 	}
 	50%{
